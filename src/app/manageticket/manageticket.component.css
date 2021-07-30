@@ -1,0 +1,8 @@
+h1,form
+{
+    font-size : 29px;
+    font-family: fantasy;
+    text-align: center;
+    background-image: url('./../../assets/img/darkship.jpg');
+    color: chartreuse;
+}

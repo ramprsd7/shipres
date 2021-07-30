@@ -1,0 +1,36 @@
+
+<marquee behavior="alternate">Mahasagar Ship Reservation System</marquee>
+<h1> Welcome to Login Window </h1>
+<div id="a" class="container">
+  <label name="uname" class="open1">
+  <form #myform=ngForm (ngSubmit)=validation(myform.value)>
+      <input type="checkbox" name="u1" class="check"  value="Admin" ngModel>Admin
+      <input type="checkbox" name="u2" class="check" value="User" ngModel>User<br/><br/>
+      Enter Username :
+      <input type="text" class="form-control" name="user" placeholder="Enter Username" ngModel/> <br/><br/>
+      Enter Password :
+      <input type="password" name="pass" class="form-control"placeholder="Enter Password" ngModel/><br/><br/>
+    <b><button style="margin-right: 16px" routerLink="addShip"> Login</button> 
+    <button id="s1" style="margin-right: 16px" routerLink="signup">signup</button></b>
+    <router-outlet></router-outlet>
+
+</form>
+</label>
+</div>
+<p id="ab"></p>
+<!-- <h3>Note : Kindly for registration use User Name : User01 and password : user123 </h3> -->
+
+<h1>Never Settle on Roadways, Discover Sea with Us</h1>
+<h6> Sea routes are the path to Heaven </h6>
+
+<!-- FOOTER -->
+<footer role="contentinfo"  class="slds-p-around_large">
+    <!-- LAYOUT GRID -->
+    <div id="b" class="slds-grid slds-grid_align-spread">
+      <strong><p class="slds-col">Mahasagar Boats is a builder of quality boats in wood and fibreglass for work, fishing and pleasure run by Sarita and Yashwanth Kangen. </p>
+        <p>Emails: mail@mahasagarboats.com     boatbuilder@india.com</p>
+      <p class="slds-col">&copy; MAHASAGAR SHIPPING PVT LTD & ALL RIGHTS RESERVED</p></strong>
+    </div>
+    <!-- / LAYOUT GRID -->
+  </footer>
+  <!-- / FOOTER -->

@@ -1,0 +1,14 @@
+<h2>Viewing window of Ships Available</h2>
+Enter The Ship Name : <input type="text" name="usr" ngModel/><br/><br/>
+<button (click)="view()"> View Ship</button>
+{{shipserv.selectAll()|json}}
+
+
+<!-- <div class="container">
+    <p>Show all Ships</p>
+    <ul>
+    <li *ngFor="let Ship of Ship | async">
+         {{ ship.name | json }}
+      </li>
+    </ul>
+  </div> -->

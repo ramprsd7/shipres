@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shipres</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('.check').click(function() {
+              $('.check').not(this).prop('checked',false);
+          });
+      });
+  </script>
+  <script type="text/javascript">
+    function ValidateForm(frm) {
+    if (frm.FirstName.value == "") { alert('First Name is required.'); frm.FirstName.focus(); return false; }
+    if (frm.LastName.value == "") { alert('Last Name is required.'); frm.LastName.focus(); return false; }
+    if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.StreetAddress1.value == "") { alert('Address is required.'); frm.StreetAddress1.focus(); return false; }
+    if (frm.City.value == "") { alert('City is required.'); frm.City.focus(); return false; }
+    if (frm.Country.value == "") { alert('Country is required.'); frm.Country.focus(); return false; }
+    return true; }
+    </script>
+<body>
+  <app-root></app-root>
+</body>
+</html>

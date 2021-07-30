@@ -1,0 +1,21 @@
+<h1>Welcome to User Register Window</h1>
+<h3>Kindly Enter the User Details below : </h3>
+<form #myform=ngForm (ngSubmit)="validation(myform.value)">
+  Enter User ID   :     <input type="text" name="user" ngModel><br/><br/>
+  Enter Full name :  <input type="text" name="Fname" ngModel><br/><br/>
+  Enter DOB       :        <input type="date" name="DOB" ngModel><br/><br/>
+  Choose Gender : <input type="radio" name="Gender" value="Male" ngModel>Male
+  <input type="radio" name="Gender" value="Female" ngModel>Female
+  <input type="radio" name="Gender" value="Other" ngModel>Other<br/><br/>
+  Present Adress:    <input type="text" name="addr" ngModel><br/><br/>
+  Permanent Address: <input type="text" name="Paddr" ngModel><br/><br/>
+  Enter state :      <input type="text" name="state" ngModel><br/><br/>
+  Enter PinCode :    <input type="text" name="PinCode" ngModel><br/><br/>
+  Phone Number:      <input type="text" name="num" ngModel><br/><br/>
+  Email ID :         <input type="text" name="Email" ngModel><br/><br/>
+  Enter Password:    <input type="text" name="pass" ngModel><br/><br/>
+  <!-- <button (click)="loginagn()">Register </button > -->
+    <button routerLink="loginagn">Register </button >
+      <router-outlet></router-outlet>
+</form>
+  

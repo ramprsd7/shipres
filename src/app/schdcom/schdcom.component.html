@@ -1,0 +1,10 @@
+
+<h1>Schedule Details</h1>
+<h1>Kindly Enter your details......!!!!!!!!</h1>
+<form #myform=ngForm (ngSubmit)="validation(myform.value)">
+      
+    Enter Journey Date:     <input type="date" name="date" ngModel><br/><br/>
+          Enter Source:     <input type="text" name="src" ngModel><br/><br/>
+    Enter Destination:     <input type="text" name="dst" ngModel><br/><br/>
+    <button>Submit</button>
+    </form>

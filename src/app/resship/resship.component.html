@@ -1,0 +1,13 @@
+
+<h1> Resevation Window for Ship booking </h1>
+<form #myform=ngForm (ngSubmit)="func(myform.value)">
+    Enter Date:  <input type="text" name="Date" ngModel/><br/><br/>
+    Enter Name:<input type="text" name="name" ngModel/><br/><br/>
+    Enter Age:<input type="number" min="1" name="age" ngModel/><br/><br/>
+    Enter time:<input type="text" name="time" ngModel/><br/><br/>
+    Enter Source:<input type="text" name="src" ngModel/><br/><br/>
+    Enter Destination:<input type="text" name="dst" ngModel/><br/><br/>
+    
+    <button>Reserve ticket</button>
+</form>
+<p id="a"></p>

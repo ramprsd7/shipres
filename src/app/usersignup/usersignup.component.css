@@ -1,0 +1,19 @@
+
+h2,form
+{
+    text-align: center;
+    border: 5px double black;
+    border-radius: 2%;
+    background-color: burlywood;
+    height: 580px;
+    width: 40%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+h1,h3{
+    background-color: aliceblue;
+    text-decoration: double;
+    text-align-last: center;
+    color: rgba(240, 9, 144, 0.945);
+}

@@ -1,0 +1,60 @@
+
+marquee{
+    font-family:Comic Sans Ms;
+    font-size : 60px;
+    text-align : center;
+}     
+
+h2,h6
+{
+    text-align: center;
+    font-size : 20px;
+    color: rgba(240, 9, 144, 0.945);
+    background-color: aliceblue;
+}
+
+h1{
+    background-color: aliceblue;
+    text-decoration: double;
+   
+    text-align-last: center;
+    color: rgba(240, 9, 144, 0.945);
+}
+
+footer
+{
+    background-color: yellow;
+    margin : 180px 300px;
+    text-align:center;
+    font-size: 15px;
+    color: crimson;
+}
+
+button{
+    letter-spacing: 5px;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+h3{
+    background-color: brown;
+    text-align: center;
+    
+}
+
+#ab
+{
+    text-align: center;
+}
+  .container { 
+    padding: 16px;
+    
+}
+
+#a{
+height: 100%;
+width: 30%;
+text-align: center;
+border: 3px solid black;
+border-radius: 5%;
+}

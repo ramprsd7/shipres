@@ -1,0 +1,16 @@
+form
+{
+    text-align:center;
+    color: black;
+   
+}
+h2{
+    text-align:center;
+    background-color: red;
+}
+p{
+    font-size: 20px;
+    background-color: purple;
+    color: aliceblue;
+    text-align: center;
+}
